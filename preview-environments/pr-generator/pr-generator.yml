@@ -12,7 +12,7 @@ spec:
         owner: zenolis
         repo: gitops-cert-level-3-examples
         labels:
-        - preview
+        - preview-ready
       requeueAfterSeconds: 180
   template:
     metadata:
