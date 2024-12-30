@@ -41,7 +41,7 @@ spec:
       project: default
 
       sources:
-        - repoURL: https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git
+        - repoURL: https://github.com/zenolis/gitops-cert-level-3-examples.git
           path: helm-multi-source/my-chart
           targetRevision: HEAD
           helm:
