@@ -17,11 +17,11 @@ spec:
       helm:
         valueFiles:
         - $values/helm-multi-source/my-values/common-values.yaml          
-        - $values/helm-multi-source/my-values/app-version/staging-values.yaml               
-        - $values/helm-multi-source/my-values/env-type/non-prod-values.yaml  
-        - $values/helm-multi-source/my-values/regions/eu-values.yaml                
-        - $values/helm-multi-source/my-values/envs/staging-eu-values.yaml
-    - repoURL: 'https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git'
+        - $values/helm-multi-source/my-values/app-version/prod-values.yaml               
+        - $values/helm-multi-source/my-values/env-type/prod-values.yaml  
+        - $values/helm-multi-source/my-values/regions/us-values.yaml                
+        - $values/helm-multi-source/my-values/envs/prod-us-values.yaml
+    - repoURL: 'https://github.com/zenolis/gitops-cert-level-3-examples.git'
       targetRevision: HEAD
       ref: values
   syncPolicy:
